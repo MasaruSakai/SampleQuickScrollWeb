@@ -37,20 +37,20 @@
 		7D9A62F714917CC400478E3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D9A62F914917CC400478E3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7D9A62FB14917CC400478E3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7D9A62FF14917CC500478E3F /* SampleQuickScrollWeb-Info.plist */ = {isa = PBXFileReference; path = "SampleQuickScrollWeb-Info.plist"; sourceTree = "<group>"; };
+		7D9A62FF14917CC500478E3F /* SampleQuickScrollWeb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleQuickScrollWeb-Info.plist"; sourceTree = "<group>"; };
 		7D9A630114917CC500478E3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D9A630314917CC500478E3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7D9A630514917CC500478E3F /* SampleQuickScrollWeb-Prefix.pch */ = {isa = PBXFileReference; path = "SampleQuickScrollWeb-Prefix.pch"; sourceTree = "<group>"; };
-		7D9A630614917CC500478E3F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D9A630514917CC500478E3F /* SampleQuickScrollWeb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleQuickScrollWeb-Prefix.pch"; sourceTree = "<group>"; };
+		7D9A630614917CC500478E3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D9A630714917CC500478E3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D9A630914917CC500478E3F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7D9A630914917CC500478E3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7D9A630A14917CC500478E3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7D9A630D14917CC500478E3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		7D9A631414917CC500478E3F /* SampleQuickScrollWebTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleQuickScrollWebTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9A631514917CC500478E3F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7D9A631D14917CC500478E3F /* SampleQuickScrollWebTests-Info.plist */ = {isa = PBXFileReference; path = "SampleQuickScrollWebTests-Info.plist"; sourceTree = "<group>"; };
+		7D9A631D14917CC500478E3F /* SampleQuickScrollWebTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleQuickScrollWebTests-Info.plist"; sourceTree = "<group>"; };
 		7D9A631F14917CC500478E3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7D9A632114917CC500478E3F /* SampleQuickScrollWebTests.h */ = {isa = PBXFileReference; path = SampleQuickScrollWebTests.h; sourceTree = "<group>"; };
+		7D9A632114917CC500478E3F /* SampleQuickScrollWebTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleQuickScrollWebTests.h; sourceTree = "<group>"; };
 		7D9A632214917CC500478E3F /* SampleQuickScrollWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleQuickScrollWebTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -361,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleQuickScrollWeb/SampleQuickScrollWeb-Prefix.pch";
 				INFOPLIST_FILE = "SampleQuickScrollWeb/SampleQuickScrollWeb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,6 +373,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleQuickScrollWeb/SampleQuickScrollWeb-Prefix.pch";
 				INFOPLIST_FILE = "SampleQuickScrollWeb/SampleQuickScrollWeb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
